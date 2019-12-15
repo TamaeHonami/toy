@@ -11,7 +11,7 @@ public class EmployeeController {
     	EmployeeForm form = new EmployeeForm();
         form.setId("1");
         form.setName("Ken");
-        form.setEmail("ken@mail.coml");
+        form.setEmail("ken@mail.com");
 
         mav.addObject("employeeForm", form);
         mav.setViewName("employee");
